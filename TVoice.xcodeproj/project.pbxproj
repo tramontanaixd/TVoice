@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DEF090587C5FED075090148 /* Pods_TVoice_TVoiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547CEA8E0BEDB9008975CE20 /* Pods_TVoice_TVoiceUITests.framework */; };
+		722F643A279D3CC5008EB6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F6439279D3CC5008EB6CC /* AppDelegate.swift */; };
+		722F643C279D3CC5008EB6CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F643B279D3CC5008EB6CC /* SceneDelegate.swift */; };
+		722F643E279D3CC5008EB6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F643D279D3CC5008EB6CC /* ViewController.swift */; };
+		722F6441279D3CC5008EB6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722F643F279D3CC5008EB6CC /* Main.storyboard */; };
+		722F6443279D3CC6008EB6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722F6442279D3CC6008EB6CC /* Assets.xcassets */; };
+		722F6446279D3CC6008EB6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722F6444279D3CC6008EB6CC /* LaunchScreen.storyboard */; };
+		722F6451279D3CC6008EB6CC /* TVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F6450279D3CC6008EB6CC /* TVoiceTests.swift */; };
+		722F645C279D3CC6008EB6CC /* TVoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F645B279D3CC6008EB6CC /* TVoiceUITests.swift */; };
+		72E246CF279E44E80051B1CF /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E246CE279E44E80051B1CF /* SpeechRecognizer.swift */; };
+		72E246DE279E452F0051B1CF /* image_3138.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E246DA279E452F0051B1CF /* image_3138.png */; };
+		72E246DF279E452F0051B1CF /* image_3242.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E246DB279E452F0051B1CF /* image_3242.png */; };
+		72E246E0279E452F0051B1CF /* image_3328.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E246DC279E452F0051B1CF /* image_3328.png */; };
+		72E246E1279E452F0051B1CF /* screen-0035.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E246DD279E452F0051B1CF /* screen-0035.png */; };
+		9679655727BA1C3A00D750CC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9679655627BA1C3A00D750CC /* SettingsViewController.swift */; };
+		9679655927BA1F4400D750CC /* screen-0232.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679655827BA1F4400D750CC /* screen-0232.jpg */; };
+		9679655B27BA21FA00D750CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9679655A27BA21FA00D750CC /* NetworkManager.swift */; };
+		B4ED46232ABC960A28449C36 /* Pods_TVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7915648377FA76CC0E376465 /* Pods_TVoice.framework */; };
+		DF1D215236248EDB111BF01D /* Pods_TVoiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED938861D23B2EFFD63D19E /* Pods_TVoiceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		722F644D279D3CC6008EB6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722F642E279D3CC5008EB6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722F6435279D3CC5008EB6CC;
+			remoteInfo = TVoice;
+		};
+		722F6458279D3CC6008EB6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722F642E279D3CC5008EB6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722F6435279D3CC5008EB6CC;
+			remoteInfo = TVoice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31C7D9324B579B2A22873288 /* Pods-TVoiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVoiceTests.release.xcconfig"; path = "Target Support Files/Pods-TVoiceTests/Pods-TVoiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		36B89FE40C3275054B005FEF /* Pods-TVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVoice.debug.xcconfig"; path = "Target Support Files/Pods-TVoice/Pods-TVoice.debug.xcconfig"; sourceTree = "<group>"; };
+		3FDCFAAF5253D84518401FEC /* Pods-TVoice-TVoiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVoice-TVoiceUITests.debug.xcconfig"; path = "Target Support Files/Pods-TVoice-TVoiceUITests/Pods-TVoice-TVoiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BCF13C4FF23EF0F4DC42A87 /* Pods-TVoice-TVoiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVoice-TVoiceUITests.release.xcconfig"; path = "Target Support Files/Pods-TVoice-TVoiceUITests/Pods-TVoice-TVoiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		547CEA8E0BEDB9008975CE20 /* Pods_TVoice_TVoiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVoice_TVoiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		722F6436279D3CC5008EB6CC /* TVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		722F6439279D3CC5008EB6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		722F643B279D3CC5008EB6CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		722F643D279D3CC5008EB6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		722F6440279D3CC5008EB6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		722F6442279D3CC6008EB6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		722F6445279D3CC6008EB6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		722F6447279D3CC6008EB6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722F644C279D3CC6008EB6CC /* TVoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722F6450279D3CC6008EB6CC /* TVoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVoiceTests.swift; sourceTree = "<group>"; };
+		722F6452279D3CC6008EB6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722F6457279D3CC6008EB6CC /* TVoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722F645B279D3CC6008EB6CC /* TVoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVoiceUITests.swift; sourceTree = "<group>"; };
+		722F645D279D3CC6008EB6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E246CE279E44E80051B1CF /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		72E246DA279E452F0051B1CF /* image_3138.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_3138.png; sourceTree = "<group>"; };
+		72E246DB279E452F0051B1CF /* image_3242.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_3242.png; sourceTree = "<group>"; };
+		72E246DC279E452F0051B1CF /* image_3328.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_3328.png; sourceTree = "<group>"; };
+		72E246DD279E452F0051B1CF /* screen-0035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-0035.png"; sourceTree = "<group>"; };
+		7915648377FA76CC0E376465 /* Pods_TVoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DBFF4C29D7A16BD7BFF447 /* Pods-TVoiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVoiceTests.debug.xcconfig"; path = "Target Support Files/Pods-TVoiceTests/Pods-TVoiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9679655627BA1C3A00D750CC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9679655827BA1F4400D750CC /* screen-0232.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "screen-0232.jpg"; path = "generative_background/screen-0232.jpg"; sourceTree = SOURCE_ROOT; };
+		9679655A27BA21FA00D750CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D0AE3260A4F2414087CA48DE /* Pods-TVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVoice.release.xcconfig"; path = "Target Support Files/Pods-TVoice/Pods-TVoice.release.xcconfig"; sourceTree = "<group>"; };
+		DED938861D23B2EFFD63D19E /* Pods_TVoiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVoiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722F6433279D3CC5008EB6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ED46232ABC960A28449C36 /* Pods_TVoice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722F6449279D3CC6008EB6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1D215236248EDB111BF01D /* Pods_TVoiceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722F6454279D3CC6008EB6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF090587C5FED075090148 /* Pods_TVoice_TVoiceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F27253A751CD921A1442FB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7915648377FA76CC0E376465 /* Pods_TVoice.framework */,
+				547CEA8E0BEDB9008975CE20 /* Pods_TVoice_TVoiceUITests.framework */,
+				DED938861D23B2EFFD63D19E /* Pods_TVoiceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D911B0B4960DA8CD4D971D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36B89FE40C3275054B005FEF /* Pods-TVoice.debug.xcconfig */,
+				D0AE3260A4F2414087CA48DE /* Pods-TVoice.release.xcconfig */,
+				3FDCFAAF5253D84518401FEC /* Pods-TVoice-TVoiceUITests.debug.xcconfig */,
+				4BCF13C4FF23EF0F4DC42A87 /* Pods-TVoice-TVoiceUITests.release.xcconfig */,
+				91DBFF4C29D7A16BD7BFF447 /* Pods-TVoiceTests.debug.xcconfig */,
+				31C7D9324B579B2A22873288 /* Pods-TVoiceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		722F642D279D3CC5008EB6CC = {
+			isa = PBXGroup;
+			children = (
+				722F6438279D3CC5008EB6CC /* TVoice */,
+				722F644F279D3CC6008EB6CC /* TVoiceTests */,
+				722F645A279D3CC6008EB6CC /* TVoiceUITests */,
+				722F6437279D3CC5008EB6CC /* Products */,
+				2D911B0B4960DA8CD4D971D9 /* Pods */,
+				1F27253A751CD921A1442FB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		722F6437279D3CC5008EB6CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				722F6436279D3CC5008EB6CC /* TVoice.app */,
+				722F644C279D3CC6008EB6CC /* TVoiceTests.xctest */,
+				722F6457279D3CC6008EB6CC /* TVoiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		722F6438279D3CC5008EB6CC /* TVoice */ = {
+			isa = PBXGroup;
+			children = (
+				72E246D9279E45170051B1CF /* imgs */,
+				72E246CE279E44E80051B1CF /* SpeechRecognizer.swift */,
+				722F6439279D3CC5008EB6CC /* AppDelegate.swift */,
+				722F643B279D3CC5008EB6CC /* SceneDelegate.swift */,
+				722F643D279D3CC5008EB6CC /* ViewController.swift */,
+				9679655A27BA21FA00D750CC /* NetworkManager.swift */,
+				722F643F279D3CC5008EB6CC /* Main.storyboard */,
+				722F6442279D3CC6008EB6CC /* Assets.xcassets */,
+				722F6444279D3CC6008EB6CC /* LaunchScreen.storyboard */,
+				722F6447279D3CC6008EB6CC /* Info.plist */,
+				9679655627BA1C3A00D750CC /* SettingsViewController.swift */,
+			);
+			path = TVoice;
+			sourceTree = "<group>";
+		};
+		722F644F279D3CC6008EB6CC /* TVoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				722F6450279D3CC6008EB6CC /* TVoiceTests.swift */,
+				722F6452279D3CC6008EB6CC /* Info.plist */,
+			);
+			path = TVoiceTests;
+			sourceTree = "<group>";
+		};
+		722F645A279D3CC6008EB6CC /* TVoiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				722F645B279D3CC6008EB6CC /* TVoiceUITests.swift */,
+				722F645D279D3CC6008EB6CC /* Info.plist */,
+			);
+			path = TVoiceUITests;
+			sourceTree = "<group>";
+		};
+		72E246D9279E45170051B1CF /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				9679655827BA1F4400D750CC /* screen-0232.jpg */,
+				72E246DA279E452F0051B1CF /* image_3138.png */,
+				72E246DB279E452F0051B1CF /* image_3242.png */,
+				72E246DC279E452F0051B1CF /* image_3328.png */,
+				72E246DD279E452F0051B1CF /* screen-0035.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		722F6435279D3CC5008EB6CC /* TVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722F6460279D3CC6008EB6CC /* Build configuration list for PBXNativeTarget "TVoice" */;
+			buildPhases = (
+				A0D05A93EACFD8DF0FBACF8B /* [CP] Check Pods Manifest.lock */,
+				722F6432279D3CC5008EB6CC /* Sources */,
+				722F6433279D3CC5008EB6CC /* Frameworks */,
+				722F6434279D3CC5008EB6CC /* Resources */,
+				3908C24A340C2A5C767B0463 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVoice;
+			productName = TVoice;
+			productReference = 722F6436279D3CC5008EB6CC /* TVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		722F644B279D3CC6008EB6CC /* TVoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722F6463279D3CC6008EB6CC /* Build configuration list for PBXNativeTarget "TVoiceTests" */;
+			buildPhases = (
+				398587B1213C3E58902D7032 /* [CP] Check Pods Manifest.lock */,
+				722F6448279D3CC6008EB6CC /* Sources */,
+				722F6449279D3CC6008EB6CC /* Frameworks */,
+				722F644A279D3CC6008EB6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722F644E279D3CC6008EB6CC /* PBXTargetDependency */,
+			);
+			name = TVoiceTests;
+			productName = TVoiceTests;
+			productReference = 722F644C279D3CC6008EB6CC /* TVoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		722F6456279D3CC6008EB6CC /* TVoiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722F6466279D3CC6008EB6CC /* Build configuration list for PBXNativeTarget "TVoiceUITests" */;
+			buildPhases = (
+				39066347CA6AFBFE8BAA3ABE /* [CP] Check Pods Manifest.lock */,
+				722F6453279D3CC6008EB6CC /* Sources */,
+				722F6454279D3CC6008EB6CC /* Frameworks */,
+				722F6455279D3CC6008EB6CC /* Resources */,
+				07FD4819E3D6A2D783BC305E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722F6459279D3CC6008EB6CC /* PBXTargetDependency */,
+			);
+			name = TVoiceUITests;
+			productName = TVoiceUITests;
+			productReference = 722F6457279D3CC6008EB6CC /* TVoiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		722F642E279D3CC5008EB6CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					722F6435279D3CC5008EB6CC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					722F644B279D3CC6008EB6CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 722F6435279D3CC5008EB6CC;
+					};
+					722F6456279D3CC6008EB6CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 722F6435279D3CC5008EB6CC;
+					};
+				};
+			};
+			buildConfigurationList = 722F6431279D3CC5008EB6CC /* Build configuration list for PBXProject "TVoice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 722F642D279D3CC5008EB6CC;
+			productRefGroup = 722F6437279D3CC5008EB6CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				722F6435279D3CC5008EB6CC /* TVoice */,
+				722F644B279D3CC6008EB6CC /* TVoiceTests */,
+				722F6456279D3CC6008EB6CC /* TVoiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722F6434279D3CC5008EB6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722F6446279D3CC6008EB6CC /* LaunchScreen.storyboard in Resources */,
+				72E246DF279E452F0051B1CF /* image_3242.png in Resources */,
+				9679655927BA1F4400D750CC /* screen-0232.jpg in Resources */,
+				722F6443279D3CC6008EB6CC /* Assets.xcassets in Resources */,
+				72E246DE279E452F0051B1CF /* image_3138.png in Resources */,
+				722F6441279D3CC5008EB6CC /* Main.storyboard in Resources */,
+				72E246E1279E452F0051B1CF /* screen-0035.png in Resources */,
+				72E246E0279E452F0051B1CF /* image_3328.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722F644A279D3CC6008EB6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722F6455279D3CC6008EB6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07FD4819E3D6A2D783BC305E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVoice-TVoiceUITests/Pods-TVoice-TVoiceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVoice-TVoiceUITests/Pods-TVoice-TVoiceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVoice-TVoiceUITests/Pods-TVoice-TVoiceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39066347CA6AFBFE8BAA3ABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVoice-TVoiceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3908C24A340C2A5C767B0463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVoice/Pods-TVoice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVoice/Pods-TVoice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVoice/Pods-TVoice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		398587B1213C3E58902D7032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVoiceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D05A93EACFD8DF0FBACF8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVoice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722F6432279D3CC5008EB6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9679655B27BA21FA00D750CC /* NetworkManager.swift in Sources */,
+				722F643E279D3CC5008EB6CC /* ViewController.swift in Sources */,
+				72E246CF279E44E80051B1CF /* SpeechRecognizer.swift in Sources */,
+				722F643A279D3CC5008EB6CC /* AppDelegate.swift in Sources */,
+				9679655727BA1C3A00D750CC /* SettingsViewController.swift in Sources */,
+				722F643C279D3CC5008EB6CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722F6448279D3CC6008EB6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722F6451279D3CC6008EB6CC /* TVoiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722F6453279D3CC6008EB6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722F645C279D3CC6008EB6CC /* TVoiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		722F644E279D3CC6008EB6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722F6435279D3CC5008EB6CC /* TVoice */;
+			targetProxy = 722F644D279D3CC6008EB6CC /* PBXContainerItemProxy */;
+		};
+		722F6459279D3CC6008EB6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722F6435279D3CC5008EB6CC /* TVoice */;
+			targetProxy = 722F6458279D3CC6008EB6CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		722F643F279D3CC5008EB6CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722F6440279D3CC5008EB6CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		722F6444279D3CC6008EB6CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722F6445279D3CC6008EB6CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		722F645E279D3CC6008EB6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		722F645F279D3CC6008EB6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		722F6461279D3CC6008EB6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B89FE40C3275054B005FEF /* Pods-TVoice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5AQYUURPL7;
+				INFOPLIST_FILE = TVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.TVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		722F6462279D3CC6008EB6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AE3260A4F2414087CA48DE /* Pods-TVoice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5AQYUURPL7;
+				INFOPLIST_FILE = TVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.TVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		722F6464279D3CC6008EB6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DBFF4C29D7A16BD7BFF447 /* Pods-TVoiceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AQYUURPL7;
+				INFOPLIST_FILE = TVoiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.TVoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVoice.app/TVoice";
+			};
+			name = Debug;
+		};
+		722F6465279D3CC6008EB6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C7D9324B579B2A22873288 /* Pods-TVoiceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AQYUURPL7;
+				INFOPLIST_FILE = TVoiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.TVoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVoice.app/TVoice";
+			};
+			name = Release;
+		};
+		722F6467279D3CC6008EB6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDCFAAF5253D84518401FEC /* Pods-TVoice-TVoiceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AQYUURPL7;
+				INFOPLIST_FILE = TVoiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.TVoiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVoice;
+			};
+			name = Debug;
+		};
+		722F6468279D3CC6008EB6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCF13C4FF23EF0F4DC42A87 /* Pods-TVoice-TVoiceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AQYUURPL7;
+				INFOPLIST_FILE = TVoiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.TVoiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVoice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		722F6431279D3CC5008EB6CC /* Build configuration list for PBXProject "TVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722F645E279D3CC6008EB6CC /* Debug */,
+				722F645F279D3CC6008EB6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722F6460279D3CC6008EB6CC /* Build configuration list for PBXNativeTarget "TVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722F6461279D3CC6008EB6CC /* Debug */,
+				722F6462279D3CC6008EB6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722F6463279D3CC6008EB6CC /* Build configuration list for PBXNativeTarget "TVoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722F6464279D3CC6008EB6CC /* Debug */,
+				722F6465279D3CC6008EB6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722F6466279D3CC6008EB6CC /* Build configuration list for PBXNativeTarget "TVoiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722F6467279D3CC6008EB6CC /* Debug */,
+				722F6468279D3CC6008EB6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 722F642E279D3CC5008EB6CC /* Project object */;
+}
